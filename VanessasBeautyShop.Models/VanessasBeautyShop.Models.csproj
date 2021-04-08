@@ -54,12 +54,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CustomerModels\CustomerCreate.cs" />
+    <Compile Include="CustomerModels\CustomerDetails.cs" />
+    <Compile Include="CustomerModels\CustomerEdit.cs" />
+    <Compile Include="CustomerModels\CustomerListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VanessasBeautyShop.Data\VanessasBeautyShop.Data.csproj">
+      <Project>{21FEF5F2-98C1-4EF0-A6BC-83DA3498240C}</Project>
+      <Name>VanessasBeautyShop.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

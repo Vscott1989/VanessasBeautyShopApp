@@ -55,11 +55,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="CustomerServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VanessasBeautyShop.Data\VanessasBeautyShop.Data.csproj">
+      <Project>{21fef5f2-98c1-4ef0-a6bc-83da3498240c}</Project>
+      <Name>VanessasBeautyShop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VanessasBeautyShop.Models\VanessasBeautyShop.Models.csproj">
+      <Project>{78C6A23E-5F24-4DE1-8707-CB566B4EC346}</Project>
+      <Name>VanessasBeautyShop.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

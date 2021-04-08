@@ -96,6 +96,14 @@
     <Compile Include="Migrations\202104081606160_addedApointmentTable.Designer.cs">
       <DependentUpon>202104081606160_addedApointmentTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104081754517_addedBeautyShopTable.cs" />
+    <Compile Include="Migrations\202104081754517_addedBeautyShopTable.Designer.cs">
+      <DependentUpon>202104081754517_addedBeautyShopTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104081807054_madeBeautyShopIDnullOnCustomerTable.cs" />
+    <Compile Include="Migrations\202104081807054_madeBeautyShopIDnullOnCustomerTable.Designer.cs">
+      <DependentUpon>202104081807054_madeBeautyShopIDnullOnCustomerTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -109,6 +117,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104081606160_addedApointmentTable.resx">
       <DependentUpon>202104081606160_addedApointmentTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104081754517_addedBeautyShopTable.resx">
+      <DependentUpon>202104081754517_addedBeautyShopTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104081807054_madeBeautyShopIDnullOnCustomerTable.resx">
+      <DependentUpon>202104081807054_madeBeautyShopIDnullOnCustomerTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
